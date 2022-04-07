@@ -1,0 +1,47 @@
+*{
+   margin:0;
+   padding:0;
+   box-sizing: border-box;
+   font-family: sans-serif;
+}  
+
+body{
+   text-align: center;
+}
+
+button{
+   cursor: pointer;
+   font-size: 15px;
+   width: 120px;
+   height: 30px;
+   border-radius: 3px;
+}
+
+h1{
+   margin: 20px 0 30px 0 
+}
+
+.main{
+   background-color: black;
+   margin: auto;
+   width: 406px;
+   height: 370px;
+   display: flex;
+   justify-content: space-between;
+   align-content: space-between;
+   flex-wrap: wrap;
+
+   .square{
+      color:#fff;
+      width: 131px;
+      background-color: #fff;
+      padding: 37px;
+      cursor: pointer;
+      font-size: 40px;
+   }
+}
+
+.jogador{
+   font-size: 20px;
+   margin: 20px 0 20px 0;
+}
